@@ -1,3 +1,6 @@
+  alter table [TEMP_VANDERLAN].[dbo].[SERVIDORES_CONSOLIDADO]
+  add RENDA_FAIXA varchar(25)
+
 UPDATE [BOLSA_FAMILIA].[dbo].[202601_NovoBolsaFamilia]
 SET RENDA_FAIXA =
 CASE
